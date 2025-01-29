@@ -1,0 +1,2 @@
+# RockPaperScissors
+odin project exercise
