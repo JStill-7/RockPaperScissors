@@ -1,3 +1,55 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; 
+}
+
 body {
-    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(223, 184, 184);
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#flex-container {
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
+    height: 450px;
+    width: 700px;
+}
+
+#controls {
+    display: flex;
+    justify-content: center; 
+    gap: 18px;
+    padding: 10px;
+    width: 100%; 
+}
+
+#score {
+    color: rgb(15, 26, 26);
+    font-size: 26px;
+    text-align: center; 
+    width: 100%; 
+}
+
+button {
+    height: 40px; 
+    padding: 0 15px;
+    font-size: 28px;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 700;
+    font-style: normal;
 }
